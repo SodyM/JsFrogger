@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+    <title>HtmlFrog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas width="664" height="600">
+
+</canvas>
+</body>
+
+<!-- sounds -->
+<audio id="music">
+    <source src="sounds/dp_frogger.mp3" type="audio/mpeg">
+</audio>
+<audio id="hop">
+    <source src="sounds/dp_frogger_hop.mp3" type="audio/mpeg">
+</audio>
+<audio id="carKill">
+    <source src="sounds/dp_frogger_squash.mp3" type="audio/mpeg">
+</audio>
+<audio id="waterKill">
+    <source src="sounds/dp_frogger_plunk.mp3" type="audio/mpeg">
+</audio>
+<audio id="score">
+    <source src="sounds/dp_frogger_extra.mp3" type="audio/mpeg">
+</audio>
+
+<!-- game code -->
+<script src="source/objects.js"></script>
+<script src="source/requestAnimationFramePolyfill.js"></script>
+<script src="source/collision.js"></script>
+<script src="source/game.js"></script>
+</html>
